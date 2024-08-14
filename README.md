@@ -87,10 +87,13 @@ nano config.json
 
 ```
 cd ..
-nano ../usr/etc/bash.bashrc
+nano etc/rc.local
 ```
-
-
-
+Type at first line : 
+```
+sudo bash /home/username/ccminer/start.sh &
+exit 0
+```
+[ You can end mining progress with CTRL + C
 [ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
 
