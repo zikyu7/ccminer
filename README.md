@@ -5,7 +5,8 @@ original sourced by :
    Christian H. ( Chris84 )
    Tanguy Pruvot ( tpruvot@github )
    Darktron [ github for ccminer verus ]
-
+   Oink70 Android-mining github
+   
 # ANDROID SMARTPHONE
 
 Use Auto start Manager from Gplay store for auto start termux, then use autorun script for auto mine with termux 
@@ -66,34 +67,33 @@ Or Download From Ophub Release HEre :
 Flash image using Rufus or Balena Etcher :
 Place the sd card into Tv box, boot it and connect LAN Cable then run the following commands<br>
 
-If you are login using user . use "sudo " command in <br>
-If you are login using root , do not use <br>
+#PLEASE LOGIN AS ROOT
 
-# Install : 
-# update
+# Install - we use curl method from Oink70 android mining REPO : 
 ```
-sudo apt update
-sudo apt install git -y
-git clone https://github.com/zikyu7/ccminer
-cd ccminer
-chmod +x ccminer start.sh
+curl -o- -k https://raw.githubusercontent.com/Oink70/Android-Mining/main/install.sh | bash
 ```
-
-# [ Edit Config , change wallet to your wallet adress and worker name]
+# Edit config Json to your wallet and worker name, and thread from 2-4 for stb
 ```
 nano config.json
 ```
-# [ Autorun ] [ CCminer ]
+# Edit start.sh to simple
+```
+#!/bin/sh
+~/ccminer/ccminer -c ~/ccminer/config.json
+```
 
+# Make script autorun after Tvbox restart
 ```
 cd ..
-sudo nano etc/rc.local
+nano /etc/rc.local
 ```
-Type at first line : 
+type in last line :
 ```
-sudo bash /home/username/ccminer/start.sh &
+bash /root/ccminer/start.sh &
 exit 0
 ```
+
 [ You can end mining progress with CTRL + C
 [ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
 
