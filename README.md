@@ -28,3 +28,5 @@ cd ccminer/&&./start.sh
 
 ```
 <br>
+
+[ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^ 
