@@ -1,5 +1,13 @@
 # ccminer
 CC MINER FOR SMARTPHONE
+thanks for :
+original sourced by : 
+   Christian Buchner ( Christian.Buchner@gmail.com )
+   Christian H. ( Chris84 )
+   Tanguy Pruvot ( tpruvot@github )
+   Darktron [ github for ccminer verus ]
+
+Use Auto start Manager from Gplay store for auto start termux, then use autorun script for auto mine with termux 
 
 A. USING TERMUX 
 Download Termux lastest Termux apk here
