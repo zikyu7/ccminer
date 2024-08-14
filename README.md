@@ -13,26 +13,57 @@ A. USING TERMUX
 Download Termux lastest Termux apk here
 
 <a href=https://f-droid.org/repo/com.termux_1020.apk>TERMUX FDROID</a> <br>
+
+# [ install ] [ CCminer ]
+
+
+<br>
+```sh
+yes | pkg update && pkg upgrade
+```
+<br>
+
+<br>
+```sh
+yes | pkg install libjansson nano git
+
+```
+<br>
+
 <br>
 ```sh
 
-[ install ] [ CCminer ]
-
-yes | pkg update && pkg upgrade
-yes | pkg install libjansson nano git
 git clone https://github.com/zikyu7/ccminer
 cd ccminer
 chmod +x ccminer start.sh
 
-[ Edit Config , change wallet to your wallet adress and worker name]
-nano config.json
+```
+<br>
 
-[ Autorun ] [ CCminer ]
+
+# [ Edit Config , change wallet to your wallet adress and worker name]
+<br>
+```sh
+nano config.json
+```
+<br>
+
+
+# [ Autorun ] [ CCminer ]
+
+```
+<br>
 cd ..
 nano ../usr/etc/bash.bashrc
 
+<br>
+```sh
+
 [ put this code ]
 cd ccminer/&&./start.sh
+
+```
+<br>
 
 ```
 <br>
