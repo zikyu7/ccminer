@@ -1,4 +1,3 @@
-# ccminer
 CC MINER FOR SMARTPHONE
 thanks for :
 original sourced by : 
