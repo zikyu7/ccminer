@@ -1,0 +1,2 @@
+# ccminer
+CC MINER FOR SMARTPHONE
