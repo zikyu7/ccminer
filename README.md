@@ -20,8 +20,10 @@ chmod +x ccminer start.sh
 nano config.json
 
 [ Autorun ] [ CCminer ]
-
+cd ..
 nano ../usr/etc/bash.bashrc
+
+[ put this code ]
 cd ccminer/&&./start.sh
 
 ```
