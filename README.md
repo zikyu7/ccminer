@@ -87,7 +87,7 @@ nano config.json
 
 ```
 cd ..
-nano etc/rc.local
+sudo nano etc/rc.local
 ```
 Type at first line : 
 ```
