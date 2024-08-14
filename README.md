@@ -30,8 +30,8 @@ yes | pkg install libjansson nano git
 git clone https://github.com/zikyu7/ccminer
 cd ccminer
 chmod +x ccminer start.sh
-
 ```
+
 # [ Edit Config , change wallet to your wallet adress and worker name]
 ```
 nano config.json
@@ -70,6 +70,25 @@ If you are login using user . use "sudo " command in <br>
 If you are login using root , do not use <br>
 
 # Install : 
+# update
+```
+sudo apt update
+sudo apt install git -y
+git clone https://github.com/zikyu7/ccminer
+cd ccminer
+chmod +x ccminer start.sh
+```
+
+# [ Edit Config , change wallet to your wallet adress and worker name]
+```
+nano config.json
+```
+# [ Autorun ] [ CCminer ]
+
+```
+cd ..
+nano ../usr/etc/bash.bashrc
+```
 
 
 
