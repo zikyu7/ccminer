@@ -1,10 +1,12 @@
-CC MINER FOR SMARTPHONE
+## CCMINER GUIDE By tomyrambozha
 thanks for :
 original sourced by : 
    Christian Buchner ( Christian.Buchner@gmail.com )
    Christian H. ( Chris84 )
    Tanguy Pruvot ( tpruvot@github )
    Darktron [ github for ccminer verus ]
+
+# ANDROID SMARTPHONE
 
 Use Auto start Manager from Gplay store for auto start termux, then use autorun script for auto mine with termux 
 
@@ -48,4 +50,9 @@ cd ccminer/&&./start.sh
 
 ```
 
-[ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^ 
+
+# TVBOX / STB
+
+
+[ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
+
