@@ -53,6 +53,25 @@ cd ccminer/&&./start.sh
 
 # TVBOX / STB
 
+You need to install armbian first :
+
+<a href=https://k-space.ee.armbian.com/archive/aml-s9xx-box/archive/Armbian_23.02.2_Aml-s9xx-box_bullseye_current_6.1.11.img.xz>bullseye current</a> <br>
+<a href=https://k-space.ee.armbian.com/archive/aml-s9xx-box/archive/Armbian_23.02.2_Aml-s9xx-box_jammy_current_6.1.11.img.xz>Jammy current</a> <br>
+<a href=https://k-space.ee.armbian.com/archive/aml-s9xx-box/archive/Armbian_23.11.1_Aml-s9xx-box_bookworm_current_6.1.63.img.xz>Book woorm </a> <br>
+
+Or Download From Ophub Release HEre :
+<a href=https://github.com/ophub/amlogic-s9xxx-armbian/releases> DOWNLOAD </a> <br>
+
+
+Flash image using Rufus or Balena Etcher :
+Place the sd card into Tv box, boot it and connect LAN Cable then run the following commands<br>
+
+If you are login using user . use "sudo " command in <br>
+If you are login using root , do not use <br>
+
+# Install : 
+
+
 
 [ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
 
