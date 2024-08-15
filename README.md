@@ -112,23 +112,15 @@ exit 0
                 "timeout": 150,
                 "disabled": 0
         },
-
         {
-                "name": "Cloudiko",
-        "url": "stratum+tcp://eu.cloudiko.io:9999",
-                "timeout": 150,
-                "disabled": 1
-        },
-
-        {
-                "name": "Luckpool",
-        "url": "stratum+tcp://na.luckpool.net:3956",
+                "name": "vipor2",
+        "url": "stratum+tcp://cn.vipor.net:5040",
                 "timeout": 60,
                 "time-limit": 600,
-                "disabled": 1
+                "disabled": 0
         }],
 
-        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.nama",
+        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.Name",
         "algo": "verus",
         "threads": 8,
         "cpu-priority": 1,
