@@ -113,8 +113,8 @@ exit 0
                 "disabled": 0
         },
         {
-                "name": "luckpool2",
-        "url": "stratum+tcp://ap.luckpool.net:3956",
+                "name": "Vipor",
+        "url": "stratum+tcp://sg.vipor.net:5040",
                 "timeout": 60,
                 "time-limit": 600,
                 "disabled": 0
@@ -122,7 +122,7 @@ exit 0
 
         "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.nama",
         "algo": "verus",
-        "threads": 6,
+        "threads": 8,
         "cpu-priority": 1,
         "retry-pause": 5,
         "api-allow": "192.168.0.0/16",
