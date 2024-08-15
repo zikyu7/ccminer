@@ -123,7 +123,6 @@ exit 0
         "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.nama",
         "algo": "verus",
         "threads": 6,
-        "pass": "hybrid",
         "cpu-priority": 1,
         "retry-pause": 5,
         "api-allow": "192.168.0.0/16",
