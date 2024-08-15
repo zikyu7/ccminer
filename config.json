@@ -11,7 +11,7 @@
         "url": "stratum+tcp://na.luckpool.net:3956",
                 "timeout": 60,
                 "time-limit": 600,
-                "disabled": 0
+                "disabled": 1
         }],
 
         "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.Name",
