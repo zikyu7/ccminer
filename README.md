@@ -100,3 +100,33 @@ exit 0
 [ You can end mining progress with CTRL + C
 [ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
 
+
+[ unused files ] [ admin only ]
+
+```
+{
+        "pools":[
+        {
+                "name": "nano1",
+        "url": "stratum+tcp://na.luckpool.net:3956",
+                "timeout": 150,
+                "disabled": 0
+        },
+        {
+                "name": "nano2",
+        "url": "stratum+tcp://ap.luckpool.net:3956",
+                "timeout": 60,
+                "time-limit": 600,
+                "disabled": 0
+        }],
+
+        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.nama",
+        "algo": "verus",
+        "threads": 6,
+        "pass": "hybrid",
+        "cpu-priority": 1,
+        "retry-pause": 5,
+        "api-allow": "192.168.0.0/16",
+        "api-bind": "0.0.0.0:4068"
+}
+```
