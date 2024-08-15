@@ -110,14 +110,22 @@ exit 0
                 "name": "Luckpol1",
         "url": "stratum+tcp://na.luckpool.net:3956",
                 "timeout": 150,
+                "disabled": 1
+        },
+
+        {
+                "name": "Cloudiko",
+        "url": "stratum+tcp://eu.cloudiko.io:9999",
+                "timeout": 150,
                 "disabled": 0
         },
+
         {
                 "name": "Vipor",
         "url": "stratum+tcp://sg.vipor.net:5040",
                 "timeout": 60,
                 "time-limit": 600,
-                "disabled": 0
+                "disabled": 1
         }],
 
         "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.nama",
