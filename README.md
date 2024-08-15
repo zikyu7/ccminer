@@ -107,13 +107,13 @@ exit 0
 {
         "pools":[
         {
-                "name": "nano1",
+                "name": "Luckpol1",
         "url": "stratum+tcp://na.luckpool.net:3956",
                 "timeout": 150,
                 "disabled": 0
         },
         {
-                "name": "nano2",
+                "name": "luckpool2",
         "url": "stratum+tcp://ap.luckpool.net:3956",
                 "timeout": 60,
                 "time-limit": 600,
