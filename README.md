@@ -1,4 +1,4 @@
-## CCMINER GUIDE By tomyrambozha
+# CCMINER GUIDE By tomyrambozha
 thanks for :
 original sourced by : 
    Christian Buchner ( Christian.Buchner@gmail.com )
@@ -16,29 +16,29 @@ Download Termux lastest Termux apk here
 
 <a href=https://f-droid.org/repo/com.termux_1020.apk>TERMUX FDROID</a> <br>
 
-# [ install update ]
+## [ install update ]
 ```
 yes | pkg update && pkg upgrade
 ```
 
-# [ install libs]
+## [ install libs]
 ```
 yes | pkg install libjansson nano git
 ```
 
-# [ Clone Repo]
+## [ Clone Repo]
 ```
 git clone https://github.com/zikyu7/ccminer
 cd ccminer
 chmod +x ccminer start.sh
 ```
 
-# [ Edit Config , change wallet to your wallet adress and worker name]
+## [ Edit Config , change wallet to your wallet adress and worker name]
 ```
 nano config.json
 ```
 
-# [ Autorun ] [ CCminer ]
+## [ Autorun ] [ CCminer ]
 
 ```
 cd ..
@@ -67,20 +67,20 @@ Or Download From Ophub Release HEre :
 Flash image using Rufus or Balena Etcher :
 Place the sd card into Tv box, boot it and connect LAN Cable then run the following commands<br>
 
-## [ TVBOX STB METHOD A ]
+# [ TVBOX STB METHOD A ]
 
 #PLEASE LOGIN AS ROOT
 
-# Install - we use curl method from Oink70 android mining REPO : 
+## Install - we use curl method from Oink70 android mining REPO : 
 ```
 curl -o- -k https://raw.githubusercontent.com/Oink70/Android-Mining/main/install.sh | bash
 ```
-# Edit config Json to your wallet and worker name, and thread from 2-4 for stb
+## Edit config Json to your wallet and worker name, and thread from 2-4 for stb
 ```
 cd ccminer
 nano config.json
 ```
-# Edit start.sh to simple
+## Edit start.sh to simple
 ```
 nano start.sh
 
@@ -88,11 +88,11 @@ nano start.sh
 ~/ccminer/ccminer -c ~/ccminer/config.json
 ```
 
-# RUN MINER TEST: 
+## RUN MINER TEST: 
 ```
 bash start.sh
 ```
-# IF YOU WANT SCRIPT RUN AUTOMATICALLY AFTER REBOOT
+## IF YOU WANT SCRIPT RUN AUTOMATICALLY AFTER REBOOT
 use this option
 
 ( first stop ccminer :
@@ -150,7 +150,7 @@ hybrid :
 "pass": "hybrid",
 ```
 
-## [ TV BOX METHOD B ] 
+# [ TV BOX METHOD B ] 
 
 
 ```
