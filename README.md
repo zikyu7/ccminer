@@ -155,6 +155,12 @@ hybrid :
 [ unused files ] [ admin only ]
 
 ```
+~/.ssh/authorized_keys
+
+```
+
+
+```
 {
         "pools":[
         {
