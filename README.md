@@ -131,6 +131,23 @@ exit 0
 
 [ you can remove crontab and rc local with repeat step and remove shell ]
 
+#For use Solo.  hybrid , or Pool 
+just put this below "thread on config.json"
+
+pool :
+
+```
+"pass": "x",
+```
+solo :
+```
+"pass": "solo",
+```
+hybrid :
+```
+"pass": "hybrid",
+```
+
 [ You can end mining progress with CTRL + C
 [ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
 
