@@ -86,16 +86,50 @@ nano start.sh
 ~/ccminer/ccminer -c ~/ccminer/config.json
 ```
 
-# Make script autorun after Tvbox restart
+# RUN MINER TEST: 
+```
+bash start.sh
+```
+# IF YOU WANT SCRIPT RUN AUTOMATICALLY AFTER REBOOT
+use this option
+
+( first stop ccminer :
+ctrl + C on keyboard )
+
+[ OPTION 1 ] CRONTAB [ RECOMENDED ] 
+
+type : 
+
+``` 
+cd ..
+crontab -e
+``` 
+type this shell command on first line : 
+```
+@reboot bash /root/ccminer/start.sh >> /root/ccminer/miner.log 2>&1
+
+```
+screen will not show mining progress but you can see log by type : 
+
+```
+ cat /root/ccminer/miner.log
+```
+just repeat if you want to see more 
+
+[ OPTION 2 ] RC.LOCAL
+
+type : 
 ```
 cd ..
 nano /etc/rc.local
 ```
-type in last line :
+type this shell in last line :
 ```
 bash /root/ccminer/start.sh &
 exit 0
 ```
+
+[ you can remove crontab and rc local with repeat step and remove shell ]
 
 [ You can end mining progress with CTRL + C
 [ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
