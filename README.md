@@ -154,10 +154,9 @@ hybrid :
 
 
 ```
-apt-get update
-apt-get upgrade
+apt update && apt upgrade 
 
-apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential libcurl4-openssl-dev -y
 
 apt-get install git
 git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
