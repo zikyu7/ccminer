@@ -52,7 +52,7 @@ cd ccminer/&&./start.sh
 ```
 
 
-# TVBOX / STB
+# TVBOX / STB 
 
 You need to install armbian first :
 
@@ -66,6 +66,8 @@ Or Download From Ophub Release HEre :
 
 Flash image using Rufus or Balena Etcher :
 Place the sd card into Tv box, boot it and connect LAN Cable then run the following commands<br>
+
+## [ TVBOX STB METHOD A ]
 
 #PLEASE LOGIN AS ROOT
 
@@ -147,6 +149,46 @@ hybrid :
 ```
 "pass": "hybrid",
 ```
+
+## [ TV BOX METHOD B ] 
+
+
+```
+apt-get update
+apt-get upgrade
+
+apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
+
+apt-get install git
+git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git
+
+cd ccminer 
+chmod +x build.sh
+chmod +x configure.sh  
+chmod +x autogen.sh 
+./build.sh
+
+TEST : 
+
+./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.STB -p x -t 8
+
+AUTORUN : 
+nano autorun.sh
+
+./ccminer/ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.STB -p x -t 8
+
+CRONTAB : 
+crontab -e
+
+@reboot bash /root/ccminer/autorun.sh > /root/ccminer/stb.log 2>&1
+
+
+--‐-------------
+RESULT CHECK : 
+cat stb.log
+crontab -r
+
+===============================================
 
 [ You can end mining progress with CTRL + C
 [ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
