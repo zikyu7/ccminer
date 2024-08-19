@@ -16,6 +16,9 @@ Download Termux lastest Termux apk here
 
 <a href=https://f-droid.org/repo/com.termux_1020.apk>TERMUX FDROID</a> <br>
 
+
+<a href=https://www.mediafire.com/file/osnhx9dj5gd08gr/com.termux_1020.apk/file> Termux Mirror</a> <br>
+
 ## [ install update ]
 ```
 yes | pkg update && pkg upgrade
