@@ -58,7 +58,7 @@ AUTORUN TERMUX AFTER REBOOT
 [ advanced user only ]
 
 ## Download termux boot
-<a href=https://f-droid.org/repo/com.termux.boot_1000.apk/file> Termux Boot</a> <br>
+<a href=https://f-droid.org/repo/com.termux.boot_1000.apk> Termux Boot</a> <br>
 
 ### create dir and boot script
 ```
@@ -83,10 +83,7 @@ NEW REPOSITORY :
 <a href=https://github.com/zikyu7/STBminev> GO TO TVBOX/STB NEW REPOSITORY</a> <br>
 
 
-
-
-
-===============================================
+==============================
 
 [ You can end mining progress with CTRL + C
 [ ENJOY , Don't donate to me, please donate to people around you who need it  . Happy Mining ^_^
