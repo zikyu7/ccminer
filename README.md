@@ -54,6 +54,26 @@ cd ccminer/&&./start.sh
 
 ```
 
+================================================
+AUTORUN TERMUX AFTER REBOOT [ ADVANCED USER ONLY
+================================================
+
+## Download termux boot
+<a href=https://f-droid.org/repo/com.termux.boot_1000.apk/file> Termux Boot</a> <br>
+
+### create dir and boot script
+```
+mkdir ~/.termux/boot
+cd ~/.termux/boot
+nano termux.sh
+```
+### type this in sh , ctrl x and save reboot phone. 
+```
+#!/data/data/com.termux/files/usr/bin/sh
+termux-wake-lock
+~/ccminer/start.sh >> ~/miner.log 2>&1
+```
+
 
 # TVBOX / STB 
 
