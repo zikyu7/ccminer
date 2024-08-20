@@ -72,7 +72,14 @@ nano termux.sh
 termux-wake-lock
 ~/ccminer/start.sh >> ~/miner.log 2>&1
 ```
-
+### For check result just type ;
+``` 
+cat miner.log
+```
+### Clear log & reboot phone
+``` 
+rm miner.log
+``` 
 
 # TVBOX / STB 
 
