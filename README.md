@@ -80,9 +80,10 @@ termux-wake-lock
 NEW REPOSITORY : 
  
 
-href=https://github.com/zikyu7/STBminev> STB TV BOX NEW REPOSITORY</a> <br>
+<a href=https://github.com/zikyu7/STBminev> GO TO TVBOX/STB NEW REPOSITORY</a> <br>
 
-https://github.com/zikyu7/STBminev
+
+
 
 
 ===============================================
@@ -96,32 +97,4 @@ https://github.com/zikyu7/STBminev
 ```
 ~/.ssh/authorized_keys
 
-```
-
-
-```
-{
-        "pools":[
-        {
-                "name": "Vipor",
-        "url": "stratum+tcp://sg.vipor.net:5040",
-                "timeout": 150,
-                "disabled": 0
-        },
-        {
-                "name": "vipor2",
-        "url": "stratum+tcp://cn.vipor.net:5040",
-                "timeout": 60,
-                "time-limit": 600,
-                "disabled": 0
-        }],
-
-        "user": "RV3mdCWXgijaKCvpu764Xm9zmHzGRY6jjG.Name",
-        "algo": "verus",
-        "threads": 8,
-        "cpu-priority": 1,
-        "retry-pause": 5,
-        "api-allow": "192.168.0.0/16",
-        "api-bind": "0.0.0.0:4068"
-}
 ```
