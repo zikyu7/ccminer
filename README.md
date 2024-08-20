@@ -54,9 +54,8 @@ cd ccminer/&&./start.sh
 
 ```
 
-================================================
-AUTORUN TERMUX AFTER REBOOT [ ADVANCED USER ONLY
-================================================
+AUTORUN TERMUX AFTER REBOOT
+[ advanced user only ]
 
 ## Download termux boot
 <a href=https://f-droid.org/repo/com.termux.boot_1000.apk/file> Termux Boot</a> <br>
