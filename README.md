@@ -57,6 +57,11 @@ cd ccminer/&&./start.sh
 AUTORUN TERMUX AFTER REBOOT
 [ advanced user only ]
 
+## Auto start app ( easy) 
+
+<a href=https://apkcombo.com/id/autostart-app-manager/com.sugarapps.autostartmanager/> Termux Boot</a> <br>
+
+
 ## Download termux boot
 <a href=https://f-droid.org/repo/com.termux.boot_1000.apk> Termux Boot</a> <br>
 
