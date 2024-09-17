@@ -59,7 +59,7 @@ AUTORUN TERMUX AFTER REBOOT
 
 ## Auto start app ( easy) 
 
-<a href=https://apkcombo.com/id/autostart-app-manager/com.sugarapps.autostartmanager/> Termux Boot</a> <br>
+<a href=https://apkcombo.com/id/autostart-app-manager/com.sugarapps.autostartmanager/> AutostartApp</a> <br>
 
 
 ## Download termux boot
